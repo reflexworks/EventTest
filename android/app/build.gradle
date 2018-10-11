@@ -73,6 +73,8 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
+    bundleInDebug: false,
+    bundleInRelease: true,
     entryFile: "index.js"
 ]
 
